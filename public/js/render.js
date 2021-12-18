@@ -34,6 +34,8 @@ whiteList.figure = []
 // allow figcaption tag
 whiteList.figcaption = []
 
+whiteList.script = []
+
 var filterXSSOptions = {
   allowCommentTag: true,
   whiteList: whiteList,
